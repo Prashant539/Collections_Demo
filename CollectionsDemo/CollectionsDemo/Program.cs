@@ -8,7 +8,8 @@ namespace CollectionDemo
         {
             Console.WriteLine("Hello World");
             Demo demo = new Demo();
-            demo.doListDemo();
+           // demo.doListDemo();
+           demo.doStackDemo();
         }
     }
 }

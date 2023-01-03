@@ -8,16 +8,17 @@ namespace CollectionsDemo
 {
     public class Demo
     {
-        public void doListDemo()
+        public void doStackDemo()
         {
            Console.WriteLine("\nIn doListDemo");
-            List<string> list = new List<string>();
-            list.Add("Ravi");
-            list.Add("Vijay");
-            list.Add("Ravi");
-            list.Add("Ajay");
+            Stack<string> stack = new Stack<string>();
+            stack.Push("Ravi");
+            stack.Push("Vijay");
+            stack.Push("Ravi");
+            stack.Push("Ajay");
+            string pop = stack.Pop();
 
-            foreach (var element in list)
+            foreach (var element in stack)
             {
                 Console.WriteLine(element);
             }
