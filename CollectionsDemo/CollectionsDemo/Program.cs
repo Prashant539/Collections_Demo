@@ -9,7 +9,9 @@ namespace CollectionDemo
             Console.WriteLine("Hello World");
             Demo demo = new Demo();
            // demo.doListDemo();
-           demo.doStackDemo();
+          // demo.doStackDemo();
+          demo.doDictionaryDemo();
+
         }
     }
 }
